@@ -8,7 +8,7 @@ You can find the code used in our experiments [here](https://github.com/frotaur/
 
 ---
 
-![English vs French validation losses ](/figures/en-fr.train-valid.combined_with_inset.svg)
+![English vs French validation losses ](figures/en-fr.train-valid.combined_with_inset.svg)
 
 {{< legend >}}
 English vs French validation losses (French training losses in the zoom-in, early loss values cropped for readability). 
@@ -16,7 +16,7 @@ English vs French validation losses (French training losses in the zoom-in, earl
 
 {{< empty "3em" >}}
 
-![BW/FW losses percentage difference for different context lengths](/figures/fr-en.attentions.svg)
+![BW/FW losses percentage difference for different context lengths](figures/fr-en.attentions.svg)
 
 {{< legend >}}
 BW/FW losses percentage difference for different context lengths.
@@ -24,7 +24,7 @@ BW/FW losses percentage difference for different context lengths.
 
 {{< empty "3em" >}}
 
-![Validation loss curves for several languages, in FW and BW training.](/figures/all-med-lang.png)
+![Validation loss curves for several languages, in FW and BW training.](figures/all-med-lang.png)
 
 {{< legend >}}
 Validation loss curves for several languages, in FW and BW training. Consistently, during training, the BW loss is higher than its FW counterpart. This persists through the warm restart of the learning rate, which causes a bump in the loss.
@@ -32,7 +32,7 @@ Validation loss curves for several languages, in FW and BW training. Consistentl
 
 {{< empty "3em" >}}
 
-![Models loss at the end of training vs → sparsity.](/figures/sparsities.svg)
+![Models loss at the end of training vs → sparsity.](figures/sparsities.svg)
 
 {{< legend >}}
 Models loss at the end of training vs → sparsity.
