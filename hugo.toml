@@ -1,4 +1,4 @@
-baseURL = 'https://jeremiewenger.com/Arrows-of-Time-for-LLMs.website'
+baseURL = 'Arrows-of-Time-for-LLMs'
 languageCode = 'en-us'
 title = 'Arrows of Time for Large Language Models'
 theme = 'typo'
