@@ -41,3 +41,7 @@ Models loss at the end of training vs → sparsity.
 {{< /legend >}}
 
 {{< empty "3em" >}}
+
+---
+
+{{< youtube 1recdRrkg_Y >}}
