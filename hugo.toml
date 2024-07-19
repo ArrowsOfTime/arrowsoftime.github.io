@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Arrows of Time for Large Language Models'
 theme = 'typo'
 
+RelativeURLs=true
+CanonifyURLs=true
+
 # [taxonomies]
 # tag = 'tags'
 
