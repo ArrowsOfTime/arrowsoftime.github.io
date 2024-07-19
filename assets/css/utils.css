@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.small {
+    font-size: small;
+}
+
+.x-small {
+  font-size: x-small;
+}
+
+.monospace {
+    font-family: "Monaspace";
+}
+
+.centered {
+  text-align: center;
+}

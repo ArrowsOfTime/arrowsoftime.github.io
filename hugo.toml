@@ -1,0 +1,74 @@
+baseURL = 'https://jeremiewenger.com/'
+languageCode = 'en-us'
+title = 'Arrows of Time for Large Language Models'
+theme = 'typo'
+
+# [taxonomies]
+# tag = 'tags'
+
+# # Google analytics code
+# googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "We study the probabilistic modeling performed by Autoregressive Large Language Models (LLMs) through the angle of time directionality."
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroContent = """"""
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/frotaur/LLM-Arrows-of-Time"
+
+# Home page authors
+[[params.authors]]
+name = "Vassilis Papadopoulos"
+refs = "* 1 2"
+url = "https://scholar.google.com/citations?user=p9B6eWEAAAAJ&hl=en"
+
+[[params.authors]]
+name = "Jérémie Wenger"
+refs = "3"
+url = "https://jeremiewenger.com/"
+
+[[params.authors]]
+name = "Clément Hongler"
+refs = "* 2"
+url = "https://scholar.google.com/citations?user=p9B6eWEAAAAJ&hl=en"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"

@@ -1,0 +1,26 @@
+{{/* Header */}}
+
+<div class="header">
+
+    {{ if or (not (.Param "hideHeader")) .IsHome }}
+
+    <h1 class="header-title">{{ site.Title }}</h1>
+
+    <div class="flex">
+        {{ $currentPage := . }}
+
+        {{ with site.Params.authors }}
+          {{ range . }}
+          <p class="small">
+              <a href="{{.url}}">{{.name }}</a><sup> {{.refs}}</sup>
+          </p>
+          {{ end }}
+        {{ end }}
+    </div>
+    <div class="x-small">
+      <sup>1</sup> FSL/Institute of Physics, EPFL, Switzerland &emsp;|&emsp; <sup>2</sup> CSFT/Institute of Mathematics, EPFL, Switzerland &emsp;|&emsp; <sup>3</sup> Department of Computing, Goldsmiths/UoL, London, UK &emsp;|&emsp; Correspondence to: Clément Hongler, clement.hongler©epfl.ch &emsp;|&emsp; <sup>*</sup> equal contributions
+    </div>
+
+    {{ end }}
+
+</div>
