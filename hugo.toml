@@ -24,6 +24,9 @@ homeIntroContent = """"""
 # Breadcrumbs
 breadcrumbs = true
 
+# urls
+canonifyurl = true
+
 # Social icons
 [[params.social]]
 name = "github"
@@ -46,17 +49,17 @@ refs = "* 2"
 url = "https://scholar.google.com/citations?user=p9B6eWEAAAAJ&hl=en"
 
 # Main menu pages
-[[params.menu]]
-name = "home"
-url = "/"
+# [[params.menu]]
+# name = "home"
+# url = "/"
 
-[[params.menu]]
-name = "posts"
-url = "/posts"
+# [[params.menu]]
+# name = "posts"
+# url = "/posts"
 
-[[params.menu]]
-name = "about"
-url = "/about"
+# [[params.menu]]
+# name = "about"
+# url = "/about"
 
 # Syntax highligth on code blocks
 [markup]
