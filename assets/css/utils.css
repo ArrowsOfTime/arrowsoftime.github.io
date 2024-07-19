@@ -22,6 +22,12 @@
   font-size: x-small;
 }
 
+@media only screen and (max-width: 600px) {
+  .x-small {
+    font-size: xx-small;
+  }
+}
+
 .monospace {
     font-family: "Monaspace";
 }
