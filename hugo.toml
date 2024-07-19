@@ -1,4 +1,4 @@
-baseURL = 'Arrows-of-Time-for-LLMs'
+baseURL = 'https://futurarium.github.io/Arrows-of-Time-for-LLMs'
 languageCode = 'en-us'
 title = 'Arrows of Time for Large Language Models'
 theme = 'typo'
