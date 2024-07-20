@@ -34,7 +34,7 @@ url = "https://github.com/frotaur/LLM-Arrows-of-Time"
 # Home page authors
 [[params.authors]]
 name = "Vassilis Papadopoulos"
-refs = "* 2 1"
+refs = "* 1 2"
 url = "https://scholar.google.com/citations?user=p9B6eWEAAAAJ&hl=en"
 
 [[params.authors]]
