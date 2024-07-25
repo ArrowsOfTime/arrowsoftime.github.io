@@ -18,9 +18,9 @@
 
 <title>
     {{ if .IsHome }}
-    {{ site.Title }}
+    {{ site.Title | plainify }}
     {{ else }}
-    {{ printf "%s | %s" .Title site.Title }}
+    {{ printf "%s | %s" .Title site.Title | plainify }}
     {{ end }}
 </title>
 
